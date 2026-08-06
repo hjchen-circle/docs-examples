@@ -1,0 +1,67 @@
+# Legal approval obtained to distribute
+# MPL-2.0 (Mozilla Public License 2.0)
+pkg:npm/lightningcss
+pkg:npm/lightningcss-android-arm64
+pkg:npm/lightningcss-darwin-arm64
+pkg:npm/lightningcss-darwin-x64
+pkg:npm/lightningcss-freebsd-x64
+pkg:npm/lightningcss-linux-arm-gnueabihf
+pkg:npm/lightningcss-linux-arm64-gnu
+pkg:npm/lightningcss-linux-arm64-musl
+pkg:npm/lightningcss-linux-x64-gnu
+pkg:npm/lightningcss-linux-x64-musl
+pkg:npm/lightningcss-win32-arm64-msvc
+pkg:npm/lightningcss-win32-x64-msvc
+
+# LGPL-3.0-only
+pkg:npm/rpc-websockets
+
+# Packages with compound licenses that are individually permissive
+# Apache-2.0 AND MIT
+pkg:npm/borsh
+
+# MIT AND Zlib
+pkg:npm/pako
+
+# BSD-2-Clause AND BSD-2-Clause-Views
+pkg:npm/uri-js
+
+# Apache-2.0 AND BSD-2-Clause AND CC0-1.0 AND ISC AND MIT
+pkg:npm/vite
+
+# Packages where the license scanner cannot detect the license.
+# Circle first-party (Apache-2.0)
+pkg:npm/@circle-fin/adapter-solana
+pkg:npm/@circle-fin/adapter-viem-v2
+pkg:npm/@circle-fin/app-kit
+pkg:npm/@circle-fin/bridge-kit
+pkg:npm/@circle-fin/developer-controlled-wallets
+pkg:npm/@circle-fin/earn-kit
+pkg:npm/@circle-fin/provider-cctp-v2
+pkg:npm/@circle-fin/provider-earn-service
+pkg:npm/@circle-fin/provider-gateway-v1
+pkg:npm/@circle-fin/provider-stablecoin-service-swap
+pkg:npm/@circle-fin/swap-kit
+pkg:npm/@circle-fin/unified-balance-kit
+
+# Third-party (undetected by scanner; permissive licenses)
+pkg:npm/@babel/core
+pkg:npm/@eslint/js
+pkg:npm/@rolldown/plugin-babel
+pkg:npm/@types/babel__core
+pkg:npm/@types/node
+pkg:npm/@types/react
+pkg:npm/@types/react-dom
+pkg:npm/@vitejs/plugin-react
+pkg:npm/babel-plugin-react-compiler
+pkg:npm/buffer
+pkg:npm/eslint
+pkg:npm/eslint-plugin-react-hooks
+pkg:npm/eslint-plugin-react-refresh
+pkg:npm/globals
+pkg:npm/react
+pkg:npm/react-dom
+pkg:npm/tsx
+pkg:npm/typescript
+pkg:npm/typescript-eslint
+pkg:npm/viem
