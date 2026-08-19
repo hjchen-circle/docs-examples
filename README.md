@@ -33,6 +33,32 @@ adapter. Connects to any EIP-6963 browser wallet (e.g., MetaMask).
 
 Run with `npm install && npm run dev`.
 
+### [`app-kit-swap`](./app-kit-swap)
+
+Browser app that estimates and swaps USDC for EURC on Arc Testnet using
+[App Kit](https://www.npmjs.com/package/@circle-fin/app-kit) with the viem
+adapter. Connects to any EIP-6963 browser wallet (e.g., MetaMask).
+
+Run with `npm install && npm run dev`.
+
+### [`app-kit-transfer-widget`](./app-kit-transfer-widget)
+
+React app that embeds a USDC transfer widget with
+[App Kit](https://www.npmjs.com/package/@circle-fin/app-kit). Supports same-chain
+`send()` and crosschain `bridge()` flows for EVM and Solana browser wallets,
+including estimate, review, and retry.
+
+Run with `npm install && npm run dev`.
+
+### [`app-kit-unified-balance`](./app-kit-unified-balance)
+
+Browser app that deposits USDC into a unified balance from Base Sepolia and
+Solana Devnet, reads the balance, and spends it on Arc Testnet using
+[App Kit](https://www.npmjs.com/package/@circle-fin/app-kit) with the viem and
+Solana adapters. Connects an EVM wallet and a Solana wallet.
+
+Run with `npm install && npm run dev`.
+
 ### [`entity-secret-setup`](./entity-secret-setup)
 
 Node.js script that generates a new entity secret, registers it with Circle,
